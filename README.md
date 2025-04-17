@@ -8,7 +8,7 @@ Welcome to **MediBot**, a smart and responsive notification system designed to a
 
 ## 📸 Photography
 
-| Dashboard | Notifications |
+| Us | Our Project |
 |----------|----------------|
 | ![screenshot](https://i.ibb.co.com/BHLSYYVJ/IMG-20250416-013243-1.jpg) | ![screenshot](https://i.ibb.co.com/GQNrxJ38/IMG-20250415-070825038-MP.jpg) |
 
