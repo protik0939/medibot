@@ -5,17 +5,17 @@ const team = [
     {
         id: "0242220005101837",
         name: "Jubair Amin Siyum",
-        image: "https://i.ibb.co.com/4bp7T0s/Sadat-Alam-Protik.webp",
+        image: "https://i.ibb.co.com/TDb4fgC1/siyum.webp",
     },
     {
         id: "0242220005101847",
         name: "Ishmak Rahat Rafi",
-        image: "https://i.ibb.co.com/4bp7T0s/Sadat-Alam-Protik.webp",
+        image: "https://i.ibb.co.com/j9ppW6g4/rafi.webp",
     },
     {
         id: "0242220005101855",
         name: "Md. Hasan Jarif",
-        image: "https://i.ibb.co.com/4bp7T0s/Sadat-Alam-Protik.webp",
+        image: "https://i.ibb.co.com/x8sC8XFW/jarif.webp",
     },
     {
         id: "0242220005101858",
@@ -25,7 +25,7 @@ const team = [
     {
         id: "0242220005101952",
         name: "SHAKIB",
-        image: "https://i.ibb.co.com/4bp7T0s/Sadat-Alam-Protik.webp",
+        image: "https://i.ibb.co.com/KzK0kBgZ/shakib.webp",
     },
 ];
 
