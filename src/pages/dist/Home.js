@@ -32,7 +32,7 @@ var team = [
 function Home() {
     return (React.createElement("div", { className: "home-container" },
         React.createElement(react_router_dom_1.Link, { to: '/notifications' },
-            React.createElement("button", { className: "notify-btn" }, "\uD83D\uDD14 See Notifications")),
+            React.createElement("button", { className: "notify-btn " }, "\uD83D\uDD14 See Notifications")),
         React.createElement("h1", { className: "title" }, "Meet Our Amazing Team"),
         React.createElement("div", { className: "card-container" }, team.map(function (member) { return (React.createElement("div", { className: "card", key: member.id },
             React.createElement("img", { src: member.image, alt: member.name }),

@@ -9,6 +9,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    <header className="medi-logo-header">
+      <h1 className="medi-logo">🤖 MediBot</h1>
+    </header>
     <App />
   </React.StrictMode>
 );

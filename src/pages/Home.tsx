@@ -32,7 +32,7 @@ const team = [
 export default function Home() {
     return (
         <div className="home-container">
-            <Link to='/notifications'><button className="notify-btn">🔔 See Notifications</button></Link>
+            <Link to='/notifications'><button className="notify-btn ">🔔 See Notifications</button></Link>
             <h1 className="title">Meet Our Amazing Team</h1>
             <div className="card-container">
                 {team.map((member) => (
