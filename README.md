@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# 🤖 MediBot - Smart Medicine Notification System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **MediBot**, a smart and responsive notification system designed to assist with medicine updates in real-time. Built with a modern tech stack and integrated with hardware components, this project aims to improve patient care through timely alerts.
 
-## Available Scripts
+👉 **Live Demo**: [https://medibot-medicine-update-info.netlify.app/](https://medibot-medicine-update-info.netlify.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+| Dashboard | Notifications |
+|----------|----------------|
+| ![screenshot](https://i.ibb.co.com/BHLSYYVJ/IMG-20250416-013243-1.jpg) | ![screenshot](https://i.ibb.co.com/GQNrxJ38/IMG-20250415-070825038-MP.jpg) |
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend:
+- React + TypeScript
+- React Router DOM
+- Responsive CSS Design
 
-### `npm run build`
+### Backend:
+- Node.js + Express
+- MongoDB (via Mongoose)
+- Axios for API calls
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Hardware Integration:
+- Arduino UNO
+- ESP8266 WiFi Module
+- Servo Motors
+- Car Chassis
+- Motor Driver
+- Breadboard
+- Jumper Wires
+- Battery
+- ESP8266
+- IR Sensor
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Notifications:
+- Real-time update fetch with `setInterval`
+- Push Notifications via OneSignal *(optional)*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 Features
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- 📦 Live notification feed for medicine events
+- 🔄 Realtime updates every 500ms
+- 📲 Backend-integrated notification system from hardware
+- 🎥 Embedded video presentation
+- 👨‍💻 Team introduction section
+- 📱 Fully responsive design
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🧑‍💻 Team Members
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+| Name                     | Student ID          |
+|--------------------------|---------------------|
+| Jubair Amin Siyum        | 0242220005101837    |
+| Ishmak Rahat Rafi        | 0242220005101847    |
+| Md. Hasan Jarif          | 0242220005101855    |
+| Md. Sadat Alam Protik    | 0242220005101858    |
+| SHAKIB                   | 0242220005101952    |
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📂 Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
