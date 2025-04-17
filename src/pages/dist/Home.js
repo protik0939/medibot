@@ -32,7 +32,12 @@ var team = [
 function Home() {
     return (React.createElement("div", { className: "home-container" },
         React.createElement(react_router_dom_1.Link, { to: '/notifications' },
-            React.createElement("button", { className: "notify-btn " }, "\uD83D\uDD14 See Notifications")),
+            React.createElement("button", { className: "notify-btn" }, "\uD83D\uDD14 See Notifications")),
+        React.createElement("header", { className: "banner" },
+            React.createElement("img", { src: "https://i.ibb.co.com/BHLSYYVJ/IMG-20250416-013243-1.jpg", alt: "Banner", className: "banner-img" })),
+        React.createElement("section", { className: "video-section" },
+            React.createElement("div", { className: "video-wrapper" },
+                React.createElement("iframe", { src: "https://www.youtube.com/embed/ehGuwsOPnas", title: "YouTube video", allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allowFullScreen: true }))),
         React.createElement("h1", { className: "title" }, "Meet Our Amazing Team"),
         React.createElement("div", { className: "card-container" }, team.map(function (member) { return (React.createElement("div", { className: "card", key: member.id },
             React.createElement("img", { src: member.image, alt: member.name }),

@@ -32,7 +32,28 @@ const team = [
 export default function Home() {
     return (
         <div className="home-container">
-            <Link to='/notifications'><button className="notify-btn ">🔔 See Notifications</button></Link>
+            <Link to='/notifications'>
+                <button className="notify-btn">🔔 See Notifications</button>
+            </Link>
+            <header className="banner">
+                <img
+                    src="https://i.ibb.co.com/BHLSYYVJ/IMG-20250416-013243-1.jpg"
+                    alt="Banner"
+                    className="banner-img"
+                />
+            </header>
+
+            <section className="video-section">
+                <div className="video-wrapper">
+                    <iframe
+                        src="https://www.youtube.com/embed/ehGuwsOPnas"
+                        title="YouTube video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+                </div>
+            </section>
+
             <h1 className="title">Meet Our Amazing Team</h1>
             <div className="card-container">
                 {team.map((member) => (
@@ -43,6 +64,6 @@ export default function Home() {
                     </div>
                 ))}
             </div>
-        </div >
+        </div>
     );
 }
