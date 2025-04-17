@@ -1,0 +1,115 @@
+.home-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: #2d2d2d;
+    margin-bottom: 30px;
+    animation: slideInDown 1s ease;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    width: 220px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    animation: popIn 0.5s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 50%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover img {
+    transform: scale(1.05);
+  }
+  
+  .card h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .card p {
+    color: #777;
+    font-size: 0.95rem;
+    margin-top: 5px;
+  }
+  
+  .notify-btn {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 6px 15px rgba(30, 136, 229, 0.3);
+  }
+  
+  .notify-btn:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes slideInDown {
+    from { opacity: 0; transform: translateY(-40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes popIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .card {
+      width: 100%;
+    }
+  
+    .notify-btn {
+      width: 100%;
+      font-size: 1.1rem;
+    }
+  }
+  
