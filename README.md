@@ -67,5 +67,3 @@ Welcome to **MediBot**, a smart and responsive notification system designed to a
 
 ---
 
-## 📂 Project Structure
-
