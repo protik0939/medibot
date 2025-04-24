@@ -108,3 +108,45 @@
       font-size: 1.5rem;
   }
 }
+
+.github-section {
+  padding: 2rem;
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+}
+
+.github-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.github-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.github-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.github-links a:hover {
+  background-color: #333;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.github-icon {
+  font-size: 1.2rem;
+}
